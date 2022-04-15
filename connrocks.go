@@ -1,12 +1,5 @@
-//go:build cgo && (linux || darwin)
-// +build cgo
-// +build linux darwin
-
 package connrocks
 
-// #include <stdlib.h>
-// #include "rocksdb/c.h"
-import "C"
 import (
 	"fmt"
 	"github.com/linxGnu/grocksdb"
