@@ -24,7 +24,7 @@ func ExampleConnectRocksDB() (string, error) {
 
 	wo := grocksdb.NewDefaultWriteOptions()
 
-	db, _ := grocksdb.OpenDb(opts, "/home/yubin/grocksdb/grocksdb")
+	db, _ := grocksdb.OpenDb(opts, "/home/yubin/go/grocksdb/grocksdb")
 
 	// if ro and wo are not used again, be sure to Close them.
 
