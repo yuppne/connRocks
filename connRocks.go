@@ -1,4 +1,4 @@
-package connRocks
+package connrocks
 
 // #include <stdlib.h>
 // #include "rocksdb/c.h"
