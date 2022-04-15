@@ -1,4 +1,4 @@
-module connRocks
+module github.com/yuppne/connRocks
 
 go 1.16
 
