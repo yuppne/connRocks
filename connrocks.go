@@ -1,3 +1,7 @@
+//go:build cgo && (linux || darwin)
+// +build cgo
+// +build linux darwin
+
 package connrocks
 
 // #include <stdlib.h>
